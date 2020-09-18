@@ -10260,7 +10260,7 @@ body {
 }
 .masthead h2 {
   max-width: 20rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 @media (min-width: 768px) {
   .masthead h1 {
@@ -10272,7 +10272,23 @@ body {
   .masthead {
     height: 100vh;
     padding: 0;
-  }
+  } 
+}
+  @media  (max-width: 600px) {
+    .masthead {
+      position: relative;
+      width: 100%;
+      height: auto;
+      min-height: 35rem;
+      padding: 15rem 0;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.726) 0%, rgba(0, 0, 0, 0.205) 75%, rgba(0, 0, 0, 0.363) 100%), url("../assets/img/bg-masthead.jpg");
+      /* background-image: url("../assets/img/bg-masthead.jpg"); */
+      background-position: top;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    }
   .masthead h1 {
     font-size: 6.5rem;
     line-height: 6.5rem;
