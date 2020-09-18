@@ -10239,8 +10239,8 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  /* background: linear-gradient(to bottom, rgba(155, 154, 154, 0.473) 0%, rgba(0, 0, 0, 0.5) 75%, rgba(0, 0, 0, 0.9) 100%), url("../assets/img/bg-masthead.jpg"); */
- background-image: url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(155, 154, 154, 0.651) 0%, rgba(0, 0, 0, 0.555) 75%, rgba(0, 0, 0, 0.603) 100%), url("../assets/img/bg-masthead.jpg");
+ /* background-image: url("../assets/img/bg-masthead.jpg"); */
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -10251,8 +10251,8 @@ body {
   font-family: 'Playfair Display', serif;
   font-size: 3.5rem;font-family: 'Playfair Display', serif;
   letter-spacing: 0.1rem;
-  color: #000000;
-  background: linear-gradient(rgb(92, 168, 168), rgba(1, 212, 212, 0.712));
+  color: #d8d8d8;
+  background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.712));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
