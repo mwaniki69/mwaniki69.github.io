@@ -10240,7 +10240,6 @@ body {
   min-height: 35rem;
   padding: 15rem 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.651) 0%, rgba(160, 160, 160, 0.425) 75%, rgba(0, 0, 0, 0.363) 100%), url("../assets/img/bg-masthead.jpg");
- /* background-image: url("../assets/img/bg-masthead.jpg"); */
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -10282,7 +10281,6 @@ body {
       min-height: 35rem;
       padding: 15rem 0;
       background: linear-gradient(to bottom, rgba(0, 0, 0, 0.726) 0%, rgba(0, 0, 0, 0.205) 75%, rgba(0, 0, 0, 0.363) 100%), url("../assets/img/bg-masthead.jpg");
-      /* background-image: url("../assets/img/bg-masthead.jpg"); */
       background-position: top;
       background-repeat: no-repeat;
       background-attachment: fixed;
@@ -10310,62 +10308,77 @@ body {
 /*========= ABOUT US SECTION ===============*/
 .about-section {
   padding-top: 5rem;
-}
-#about {
   width: 100%;
   height: auto;
-  background: #fff
-
+  background: #fff;  
 }
-
-#about .div-img-bg {
+.paddsection {
+  padding-bottom: 50px;
+}
+.about-section .div-img-bg {
   padding-bottom: 20px;
-  width: 80%;
- border: 10px solid #00cacabb;
+  width: 100%;
+  margin-bottom: 1em;
+  border: 10px solid #00cacabb;
 }
-
-#about .div-img-bg .about-img img {
+.about-section .div-img-bg .about-img img {
   width: 100%;
   box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
-  margin-top: -30px;
-  margin-left: 20px;
-  height: 400px;
+  margin-top: -15px;
+  margin-left: 15px;
+  height: 350px;
   -o-object-fit: top;
   object-fit: top;
 }
-
 .about-descr .p-heading {
   font-family: 'Playfair Display', serif;
   font-size: 28px;
   text-align: left;
 }
-
 .about-descr .separator {
   font-family: 'Raleway', sans-serif;
-/* font-family: 'Quicksand', sans-serif; */
   max-width: 95%;
   margin-bottom: 0;
   text-align: center;
   color: #000000a2;
 }
-.paddsection {
-  padding-top: 90px;
-  padding-bottom: 90px;
+@media (min-width: 768px) and (max-width: 991px) {
+  
+  /* About */
+  .about-section .div-img-bg {
+    padding-bottom: 20px;
+    width: 40%;
+    margin-bottom: 1em;
+   border: 10px solid #00cacabb;
+  } 
+  .about-section .div-img-bg {
+    padding: 0;
+  }
+  .about-section .div-img-bg .about-img img {
+    width: 300px;
+    box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
+    margin-top: -15px;
+  margin-left: 45px;
+    height: 380px;
+    -o-object-fit: top;
+    object-fit: top;
+  }
+  .about-section .about-descr .p-heading {
+    font-size: 20px;
+  }
+  .about-section .about-descr .separator {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+
 }
-
-.paddsections {
-  padding-top: 90px;
-  padding-bottom: 90px !important;
-}
-
-
-
-
-
 .about-section p {
   margin-bottom: 5rem;
 }
 
+
+
+/*============= projects ==========*/
 .projects-section {
   padding: 2rem 0;
   background:  url("../assets/img/bg.jpg");
@@ -10375,16 +10388,8 @@ body {
   background-attachment: fixed;
 
 }
-
-
 .projects-section .featured-text {
   padding: 2rem;
-}
-@media (min-width: 992px) {
-  .projects-section .featured-text {
-    padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #009999;
-  }
 }
 .projects-section .project-text {
   padding: 3rem;
@@ -10395,7 +10400,6 @@ body {
 }
 .projects-section .project-icons{
   height:2em;
-  /* width: 10px; */
   color: rgb(161, 207, 200) !important;
   font-size: 2.5em;
   text-align: left;
@@ -10404,14 +10408,16 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 .projects-section .project-text p{
-
   font-family: 'Raleway', sans-serif;
   font-size: 1.1em;
   color: #000000f1;
 
 }
-
 @media (min-width: 992px) {
+  .projects-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #009999;
+  }
   .projects-section .project-text {
     padding: 5rem;
   }
@@ -10423,6 +10429,7 @@ body {
 }
 
 
+/*========= contact us =========*/
 .contact-section {  
   background: linear-gradient(to bottom, rgba(204, 255, 255, 0.527) 0%, rgba(255, 255, 255, 0.199) 75%, rgba(153, 255, 255, 0.493) 100%), url("../assets/img/map.jpg");
   background-position: center;
