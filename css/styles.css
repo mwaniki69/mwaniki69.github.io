@@ -10483,6 +10483,9 @@ body {
   }
   
 }
+
+
+
 /*============= projects ==========*/
 .projects-section {
   padding: 2rem 0;
@@ -10493,6 +10496,135 @@ body {
   background-attachment: fixed;
 
 }
+.service-sect{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.service-sect {
+  padding:50px 0;
+}
+.service-sect h2 {
+  text-align: center;
+  font-weight: 500;
+}
+.service-sect p {
+font-size: 16px;
+  text-align: center;
+margin-bottom: 0;
+}
+.service-caption {
+position: absolute;
+z-index: 1;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: column;
+vertical-align: middle;
+justify-content: center;
+  padding:10px;
+}
+.service-caption h3 {
+font-size: 20px;
+line-height: 100%;
+  color: #000;
+  text-transform: uppercase;
+  margin: 0;
+  text-align: center;
+}
+.service-caption h3 a {
+font-size: 22px;
+color: #fff;
+opacity: 1;
+}
+.service-caption h3 a:hover {
+text-decoration: none;
+}
+.service-col {
+
+  margin-bottom: 40px;
+padding:10px
+}
+.service-col .img-responsive {
+width: 100%;
+/* height: auto; */
+}
+.service-title {
+height: 100%;
+margin: 30px;
+background-color: transparent;
+backdrop-filter: blur(2px);
+
+border: 1px solid #fff;
+display: flex;
+flex-direction: column;
+vertical-align: middle;
+justify-content: center;
+}
+.service-title a {
+color: #fff;
+font-size: 50px;
+}
+
+.service-col h3 {
+filter: alpha(opacity=0);
+-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+transition: opacity 0.35s, transform 0.35s;
+-webkit-transform: translate3d(0,-125%,0);
+}
+.service-col a, .service-col p {
+opacity: 0;
+filter: alpha(opacity=0);
+-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+transition: opacity 0.35s, transform 0.35s;
+-webkit-transform: translate3d(0,-100%,0);
+transform: translate3d(0,-200%,0);
+}
+
+.service-col:hover h3 {
+opacity: 1;
+filter: alpha(opacity=100);
+-webkit-transform: translate3d(0,-100%,0);
+transform: translate3d(0,0%,0);
+}
+.service-col:hover a, .service-col:hover p {
+opacity: 1;
+filter: alpha(opacity=100);
+-webkit-transform: translate3d(0,-100%,0);
+transform: translate3d(0,-30%,0);
+}
+.img-responsive{
+width:100%;
+height:auto;
+}
+.overlay {
+height: 100%;
+/* background-color: tomato; */
+display: flex;
+flex-direction: column;
+vertical-align: middle;
+justify-content: center;
+}
+.overlay:hover {
+background: #fec301c5;
+transition: all 0.6s ease 0s; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------*/
 .projects-section .featured-text {
   padding: 2rem;
 }
