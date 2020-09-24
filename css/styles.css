@@ -10544,8 +10544,15 @@ body {
 .service-caption h3 a {
   font-size: 22px;
   font-weight: 500;
-  color: #fff;
+  color: transparent;
   opacity: 1;
+}
+.service-caption h3 ul{
+  font-size: 10px;
+  text-align: left;
+  /* font-weight: 500;
+  color: transparent;
+  opacity: 1; */
 }
 
 .service-caption h3 a:hover {
@@ -10567,14 +10574,20 @@ body {
   height: 100%;
   margin: 30px;
   background-color: transparent;
-  backdrop-filter: blur(1px);
-
+  /* backdrop-filter: blur(1px); */
+  overflow: hidden;
   border: 1px solid #fff;
   display: flex;
   flex-direction: column;
   vertical-align: middle;
   justify-content: center;
 }
+
+.service-title:hover {
+  background: #fec301c5;
+  transition: all 0.6s ease 0s;
+}
+
 .service-title:hover {
   border: 1px solid #0047ab;
 } 
@@ -10631,12 +10644,12 @@ body {
   vertical-align: middle;
   justify-content: center;
 }
-
-.overlay:hover {
-  background: #fec301c5;
-  transition: all 0.6s ease 0s;
+.service-desc{
+  background-color: rgba(255, 255, 255, 0.616);
+  font-size: 1em;
+  font-weight: 600;
+  padding: 0.5em auto;
 }
-
 
 
 
