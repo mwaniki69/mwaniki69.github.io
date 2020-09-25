@@ -10741,6 +10741,8 @@ body {
 
 .pricing-feature-list {
   text-align: left;
+  color: #cf1d1df1;
+  font-size: larger;
 }
 
 .pricing-palden .pricing-item {
