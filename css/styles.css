@@ -11313,7 +11313,7 @@ body {
     width: 100%;
     height: auto;
     min-height: 35rem;
-    padding: 15rem 0;
+    padding: 8rem 0;
     background-image: url("../assets/img/bg-masthead-1.jpg");
     background-position: right;
     background-repeat: no-repeat;
@@ -11405,7 +11405,7 @@ body {
 /*============= projects ==========*/
 .projects-section {
   padding: 2rem 0;
-  background: url("../assets/img/bg.jpg");
+  background: url("../assets/img/bg.svg");
   background-position: center;
   background-size: 100% auto;
   background-repeat: no-repeat;
