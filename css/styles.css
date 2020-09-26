@@ -11324,28 +11324,46 @@ body {
 
 
 /*==========================*/
-.tab-title {
+.tab-title{
+  margin: 1.5em;
+  padding-top: 2.5em;
+
+}
+.tab-title h2 {
   text-align: center;
   font-family: 'Playfair Display', serif;
   font-weight: 800;
 
-  color: #000000;
+  color:rgba(0, 0, 51, 0.856);
 }
 
 /*==========================*/
 
 /*========= ABOUT US SECTION ===============*/
 .about-section {
-  padding-top: 3.5rem;
+  padding: 0 2rem 2rem 2rem ;
   width: 100%;
   height: auto;
-  background: #fff;
+  background: #f2f2f2;
+}
+.abt-sec{
+  /* background-color: violet; */
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.about-section .div-img-bg {
+  margin-bottom: 10px;
+  border: 5px solid #fec301;
+  width: auto;
 }
 
-.paddsection {
-  padding-bottom: 50px;
+.about-section .div-img-bg  img {
+  width: 100%;
+  box-shadow: 10px 0px 85px 0px rgba(0, 0, 0, 0.14);
+  height: 25em;
 }
-
 .about-descr .p-heading {
   font-family: 'Playfair Display', serif;
   font-weight: 800;
@@ -11365,27 +11383,7 @@ body {
   margin-bottom: 5rem;
 }
 
-.about-section {
-  width: 100%;
-  height: auto;
-  background: #f7f7f7;
-  padding-top: 120px;
-}
 
-.about-section .div-img-bg {
-  padding-bottom: 30px;
-  border: 15px solid #006affd0;
-}
-
-.about-section .div-img-bg .about-img img {
-  width: 100%;
-  box-shadow: 10px 0px 85px 0px rgba(0, 0, 0, 0.14);
-  margin-top: -50px;
-  margin-left: 40px;
-  height: 450px;
-  /* -o-object-fit: none;
-  object-fit: none; */
-}
 
 .about-section .about-descr .p-heading {
   font-family: 'Playfair Display', serif;
@@ -11400,128 +11398,6 @@ body {
   margin-bottom: 0;
   text-align: center;
   color: #000000a2;
-}
-
-.paddsection {
-  padding-top: 90px;
-  padding-bottom: 90px;
-}
-
-.paddsections {
-  padding-top: 90px;
-  padding-bottom: 90px !important;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-
-  /* About **/
-  .about-section .div-img-bg {
-    padding: 0;
-    width: 80%;
-  }
-
-  .about-section .div-img-bg .about-img img {
-    margin-top: 0%;
-    margin-left: calc(0% - 0px);
-    -o-object-fit: cover;
-    object-fit: cover;
-  }
-
-  .about-section .about-descr .p-heading {
-    font-size: 20px;
-  }
-
-  .about-section .about-descr .separator {
-    max-width: 100%;
-    margin-bottom: 0;
-  }
-}
-
-@media (max-width: 768px) {
-
-  .about-section .div-img-bg {
-    padding: 0;
-    margin-bottom: 0.5em;
-
-  }
-
-  .about-section .div-img-bg .about-img img {
-    margin-top: 0%;
-    margin-left: calc(0% - 0px);
-  }
-
-  .about-section .about-descr .p-heading {
-    font-size: 20px;
-  }
-
-  .about-section .about-descr .separator {
-    max-width: 100%;
-    margin-bottom: 0;
-
-  }
-}
-
-/** Width between 600px to 0
- *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- */
-@media (max-width: 600px) {
-
-  /* About */
-  .head-info .header-content h1 {
-    font-size: 32px;
-  }
-
-  .about-section .div-img-bg {
-    padding: 0;
-    margin-bottom: 0.5em;
-
-  }
-
-  .about-section .div-img-bg .about-img img {
-    margin-top: 0%;
-    margin-left: calc(0% - 0px);
-  }
-
-  .about-section .about-descr .p-heading {
-    font-size: 20px;
-  }
-
-  .about-section .about-descr .separator {
-    max-width: 100%;
-    margin-bottom: 0;
-  }
-
-}
-
-/** Width between 480px to 0
- *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- */
-@media (max-width: 480px) {
-
-  /* About */
-  .head-info .header-content h1 {
-    font-size: 32px;
-  }
-
-  .about-section .div-img-bg {
-    padding: 0;
-    margin-bottom: 0.5em;
-  }
-
-  .about-section .div-img-bg .about-img img {
-    margin-top: 0%;
-    margin-left: calc(0% - 0px);
-  }
-
-  .about-section .about-descr .p-heading {
-    font-size: 20px;
-  }
-
-  .about-section .about-descr .separator {
-    max-width: 100%;
-    margin-bottom: 0;
-  }
-
 }
 
 
@@ -11824,11 +11700,11 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  margin-top: 2em;
+  /* margin-top: 2em; */
 }
 
 .cont-us {
-  padding-top: 5rem;
+  /* padding-top: 5rem; */
   /* height: 100%;
   background-color: transparent;
   backdrop-filter: blur(2px);
