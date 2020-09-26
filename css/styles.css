@@ -175,7 +175,7 @@ sup {
 }
 
 a {
-  color: #00b3b3;
+  color: #006aff;
   text-decoration: none;
   background-color: transparent;
   /* -webkit-transition: .3s all ease;
@@ -2744,7 +2744,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color:#fff;
+  color: #fff;
   background-color: #fec301;
   border-color: #009999;
 }
@@ -2758,7 +2758,7 @@ fieldset:disabled a.btn {
 .btn-primary:focus,
 .btn-primary.focus {
   color: #fff;
-  background-color:  #fec301;
+  background-color: #fec301;
   border-color: #4f837f;
   box-shadow: 0 0 0 0.2rem rgba(123, 175, 172, 0.5);
 }
@@ -10910,12 +10910,12 @@ button.bg-black:focus {
 }
 
 .text-primary {
-  color: #00b3b3 !important;
+  color: #006aff !important;
 }
 
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #467370 !important;
+  color: #006aff !important;
 }
 
 .text-secondary {
@@ -11146,7 +11146,7 @@ body {
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #00b3b3;
+  color: #006aff;
   border: 1px solid #009999;
 }
 
@@ -11193,7 +11193,7 @@ body {
   }
 
   #mainNav .nav-link:hover {
-    color:#fec301cc;
+    color: #fec301cc;
   }
 
   #mainNav .nav-link:active {
@@ -11215,13 +11215,11 @@ body {
   }
 
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #0047ab
-    ;
+    color: #0047ab;
   }
 
   #mainNav.navbar-shrink .nav-link:active {
-    color: #0047ab
-    ;
+    color: #0047ab;
   }
 
   #mainNav.navbar-shrink .nav-link.active {
@@ -11237,7 +11235,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 1em;
   font-weight: 400;
-  background-color:#fec301;
+  background-color: #fec301;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   border: 0;
@@ -11545,10 +11543,12 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .service-col {
   padding: 4px;
-  margin-bottom: 2.5em;  
+  margin-bottom: 2.5em;
 }
+
 .overlay {
   height: 95%;
   padding-bottom: 0.5em;
@@ -11564,7 +11564,7 @@ body {
   top: 0;
   left: 0;
   height: 100%;
-  width: 100%; 
+  width: 100%;
   /* padding: 10px; */
 }
 
@@ -11583,7 +11583,7 @@ body {
   text-decoration: none;
 }
 
- .service-col .img-responsive {
+.service-col .img-responsive {
   width: 100%;
 }
 
@@ -11605,14 +11605,17 @@ body {
   border: 1px solid #ffffff;
 
 }
+
 .service-title ul {
   color: #000;
 }
+
 .service-title h3 ul {
   font-size: 10px;
   text-align: left;
-  
+
 }
+
 .service-col h3 {
   color: rgb(247, 12, 12);
   opacity: 0;
@@ -11622,6 +11625,7 @@ body {
   -webkit-transform: translate3d(0, -100%, 0);
   transform: translate3d(0, -200%, 0);
 }
+
 .service-col:hover h3 {
   opacity: 1;
   color: #ffffff;
@@ -11629,6 +11633,7 @@ body {
   -webkit-transform: translate3d(0, -100%, 0);
   transform: translate3d(0, 0%, 0);
 }
+
 .img-responsive {
   width: 100%;
   height: auto;
@@ -11639,7 +11644,7 @@ body {
   font-size: 1em;
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
-  padding: 0.5em ;
+  padding: 0.5em;
 }
 
 /*============== prices ========*/
@@ -11686,7 +11691,7 @@ body {
 
 .pricing-feature-list {
   text-align: left;
-  color:#004099;
+  color: #004099;
   font-size: larger;
 }
 
@@ -11714,7 +11719,7 @@ body {
 
 .pricing-palden .pricing-deco {
   border-radius: 10px 10px 0 0;
-  background:  #0047ab;
+  background: #0047ab;
   padding: 2em 0 6em;
   position: relative;
 }
@@ -11797,14 +11802,14 @@ body {
   padding: 1em 2em;
   color: #fff;
   border-radius: 30px;
-  background:  #0047ab;
+  background: #0047ab;
   -webkit-transition: background-color 0.3s;
   transition: background-color 0.3s;
 }
 
 .pricing-palden .pricing-action:hover,
 .pricing-palden .pricing-action:focus {
-  background-color:  #006aff;
+  background-color: #006aff;
 }
 
 .pricing-palden .pricing-item--featured .pricing-deco {
@@ -11813,8 +11818,8 @@ body {
 
 /*========= contact us =========*/
 .contact-section {
-  /* background: linear-gradient(to bottom, rgba(204, 255, 255, 0.527) 0%, rgba(255, 255, 255, 0.199) 75%, rgba(153, 255, 255, 0.493) 100%), url("../assets/img/map.jpg"); */
-  background-image: url("../assets/img/map.jpg");
+  background: linear-gradient(to bottom, rgba(204, 255, 255, 0.527) 0%, rgba(255, 255, 255, 0.199) 75%, rgba(153, 255, 255, 0.493) 100%), url("../assets/img/map.jpg");
+  /* background-image: url("../assets/img/map.jpg"); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -11843,7 +11848,7 @@ body {
   border: 0;
   background-color: rgba(255, 255, 255, 0.767);
   backdrop-filter: blur(10px);
-  border-bottom: 0.25rem solid #00e6e6;
+  border-bottom: 0.25rem solid #006aff;
 }
 
 .contact-section .card h4 {
@@ -11854,7 +11859,7 @@ body {
 }
 
 .contact-section .card hr {
-  border-color: #009999;
+  border-color: #006aff;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -11868,7 +11873,7 @@ body {
   text-align: center;
   height: 4rem;
   width: 4rem;
-  background: #00b3b3d2;
+  background: #006aff;
   border-radius: 100%;
   line-height: 4rem;
   color: rgba(255, 255, 255, 0.925);
@@ -11876,7 +11881,9 @@ body {
 }
 
 .contact-section .social a:hover {
-  color: rgba(0, 0, 0, 0.733);
+  color: #006aff;
+  background: #ffffff;
+  border: 1px solid #fec301;
 }
 
 .contact-section .social a:active {
