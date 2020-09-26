@@ -20,7 +20,7 @@
   --orange: #fd7e14;
   --yellow: #ffc107;
   --green: #28a745;
-  --teal: #009999;
+  -- #006aff: #009999;
   --cyan: #17a2b8;
   --white: #fff;
   --gray: #6c757d;
@@ -11004,7 +11004,7 @@ a.text-black:focus {
 }
 
 .text-white-50 {
-  color: teal !important;
+  color:  #006aff !important;
 }
 
 .text-hide {
@@ -11313,7 +11313,7 @@ body {
     width: 100%;
     height: auto;
     min-height: 35rem;
-    padding: 5rem 0;
+    padding: 7rem 0;
     background-image: url("../assets/img/bg-masthead-1.jpg");
     background-position: right;
     background-repeat: no-repeat;
@@ -11405,8 +11405,8 @@ body {
 /*============= projects ==========*/
 .projects-section {
   padding: 2rem 0;
-  background: url("../assets/img/bg.svg");
-  background-position: center;
+  background: url("../assets/img/bg.jpg");
+  background-position: top;
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
