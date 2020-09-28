@@ -6447,9 +6447,9 @@ a.close.disabled {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #fff;
+  background-color: transparent;
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid #fec301;
   border-radius: 0.3rem;
   outline: 0;
 }
@@ -11691,7 +11691,7 @@ body {
   padding: 5em 0 8.885em 0;
 }
 /* a {
-  color: #58bff6;
+  color: #006aff;
   text-decoration: none;
 }
 
@@ -11731,24 +11731,64 @@ div.logo svg {
   transition: all .3s ease;
 }
 
-#form {
-  width: 40rem;
-  /* height: 320px; */
-  height: 80rem;
-  background-color: #fff;
-  margin: auto;
-  border-radius: 5px;
-  padding: 20px;
-  left: 50%;
-  top: 50%;
+.formr {
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;  
+  /* border-radius: 10px 10px 0 0; */
+  background-color: #fec301;  
 }
-
+.formr .pricing-deco {
+  border-radius: 0 0 0 0;
+  background: #0047ab;
+  padding: 2em 0 5em 2em;
+  position: relative;  
+  margin-bottom: 1em;
+}
+.formr .pricing-deco-img{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+}
+.formr .pricing-price {
+  font-size: 4em;
+  font-weight: bold;
+  padding: 0;
+  color: #fff;
+  margin: 0 0 0.25em 0.5em;
+  line-height: 0.75;
+}
+.formr .pricing-action {
+  font-weight: bold;
+  margin: auto 3em 2em 3em;
+  padding: 1em 2em;
+  color: #fff;
+  border-radius: 30px;
+  background: #0047ab;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+.form-items{
+  background-color: turquoise;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.2em;
+}
 div.form-item {
   position: relative;
-  display: block;
-  margin-bottom: 20px;
+  margin-bottom:1em;
+  width: 90%;
 }
-
+.modal-close{
+  background-color: tomato;
+  border-radius: 5px 5px 0 0;
+  padding-right: 1em;
+  margin: 0.01em;
+}
 input {
   transition: all .2s ease;
 }
@@ -11774,11 +11814,11 @@ input.form-style {
 
 div.form-item .form-style:focus {
   outline: none;
-  border: 1px solid #58bff6;
-  color: #58bff6;
+  border: 1px solid #006aff;
+  color: #006aff;
 }
 
-div.form-item p.formLabel {
+.form-item p.formLabel {
   position: absolute;
   left: 26px;
   top: 2px;
@@ -11792,7 +11832,7 @@ div.form-item p.formLabel {
   background-color: #fff;
   padding: 0 5px;
   font-size: 14px;
-  color: #58bff6 !important;
+  color: #006aff !important;
 }
 
 .formStatus {
