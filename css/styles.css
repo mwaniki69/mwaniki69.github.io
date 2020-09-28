@@ -2224,27 +2224,27 @@ pre code {
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #6c757d;
+  color: #006affb0;
   opacity: 1;
 }
 
 .form-control::-moz-placeholder {
-  color: #6c757d;
+  color: #006affb0;
   opacity: 1;
 }
 
 .form-control:-ms-input-placeholder {
-  color: #6c757d;
+  color:#006affb0;
   opacity: 1;
 }
 
 .form-control::-ms-input-placeholder {
-  color: #6c757d;
+  color:#006affb0;
   opacity: 1;
 }
 
 .form-control::placeholder {
-  color: #6c757d;
+  color:#006affb0;
   opacity: 1;
 }
 
@@ -11789,6 +11789,7 @@ div.form-item {
 }
 input {
   transition: all .2s ease;
+  
 }
 
 input.form-style {
@@ -11814,55 +11815,6 @@ div.form-item .form-style:focus {
   outline: none;
   border: 1px solid #006aff;
   color: #006aff;
-}
-
-.form-item p.formLabel {
-  position: absolute;
-  left: 26px;
-  top: 2px;
-  transition: all .4s ease;
-  color: #006aff70;
-}
-
-.formTop {
-  top: -22px !important;
-  left: 26px;
-  background-color: #fff;
-  padding: 0 5px;
-  font-size: 14px;
-  color: #006aff !important;
-}
-
-.formStatus {
-  color: #8a8a8a !important;
-}
-
-input[type="submit"].login {
-  float: right;
-  width: 112px;
-  height: 37px;
-  -moz-border-radius: 19px;
-  -webkit-border-radius: 19px;
-  border-radius: 19px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  background-color: #55b1df;
-  border: 1px solid #55b1df;
-  border: none;
-  color: #fff;
-  font-weight: bold;
-}
-
-input[type="submit"].login:hover {
-  background-color: #fff;
-  border: 1px solid #55b1df;
-  color: #55b1df;
-  cursor: pointer;
-}
-
-input[type="submit"].login:focus {
-  outline: none;
 }
 
 
