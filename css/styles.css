@@ -6447,7 +6447,7 @@ a.close.disabled {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: transparent;
+  background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #fec301;
   border-radius: 0.3rem;
@@ -11736,14 +11736,13 @@ div.logo svg {
   flex-direction: column;
   justify-content:flex-start;  
   /* border-radius: 10px 10px 0 0; */
-  background-color: #fec301;  
+  /* background-color: #fec301;   */
 }
 .formr .pricing-deco {
   border-radius: 0 0 0 0;
   background: #0047ab;
   padding: 2em 0 5em 2em;
   position: relative;  
-  margin-bottom: 1em;
 }
 .formr .pricing-deco-img{
   position: absolute;
@@ -11771,11 +11770,11 @@ div.logo svg {
   transition: background-color 0.3s;
 }
 .form-items{
-  background-color: turquoise;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0.7em;
   padding: 0.2em;
 }
 div.form-item {
@@ -11784,7 +11783,6 @@ div.form-item {
   width: 90%;
 }
 .modal-close{
-  background-color: tomato;
   border-radius: 5px 5px 0 0;
   padding-right: 1em;
   margin: 0.01em;
@@ -11794,12 +11792,12 @@ input {
 }
 
 input.form-style {
-  color: #8a8a8a;
+  color: #006aff70;
   display: block;
   width: 90%;
   height: 44px;
   padding: 5px 5%;
-  border: 1px solid #ccc;
+  border: 1px solid #006aff70;
   -moz-border-radius: 27px;
   -webkit-border-radius: 27px;
   border-radius: 27px;
@@ -11823,7 +11821,7 @@ div.form-item .form-style:focus {
   left: 26px;
   top: 2px;
   transition: all .4s ease;
-  color: #bbb;
+  color: #006aff70;
 }
 
 .formTop {
