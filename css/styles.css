@@ -11527,15 +11527,16 @@ body {
 /* ----services modals--- */
 .model-content {
   
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   width: 100%;
-  pointer-events: auto;
+  pointer-events: auto; */
   background-color: whitesmoke;
-  background-clip: padding-box;
   border: 1.5px solid  #006aff;
+
+  /* background-clip: padding-box;
   border-radius: 0.3rem;
-  outline: 0;
+  outline: 0; */
 }
  
 
@@ -11544,14 +11545,16 @@ body {
   justify-content: center;
   width: 100%;
  padding: 0;
+ margin: 0 auto 3em;
 }
 
 .service-cards {
+  position: relative;
    background-color: rgb(255, 255, 255);
   width: 100%;
   font-family: 'Open Sans', sans-serif;
    color: #84697c; 
-  
+   flex: 0 1 330px;
 }
 .serv-card {
    
@@ -11583,7 +11586,7 @@ body {
 
 }
 .serv-title{
-  font-size: 2.2em;
+  font-size: 2em;
   margin: 0;
   text-align: center;
   /* text-transform: uppercase; */
