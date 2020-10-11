@@ -11321,7 +11321,7 @@ body {
     background-image: url("../assets/img/bg-masthead-1.jpg");
     background-position:top center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     min-height: 50rem;
     /* background-size: contain; */
   }
