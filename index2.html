@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title> Packages- Simple Solutions</title>
+
+
+	<div class="content-main">
+		<div class="container">
+			<div class="row ">
+
+
+				<h1 class="page-headings">Contact</h1>
+				<link rel='stylesheet'
+					href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+				<!-- <link rel="stylesheet" href="./style.css"> -->
+				<link href="css/styles.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+
+
+
+	<form action="contact.php" method="POST" enctype="multipart/form-data">
+		<input type="hidden" name="action" value="submit">
+
+		<div class="form-group">
+			<label for="first_name">First Name<red>*</red></label>
+			<input type="text" class=" form-style form-control" name="first_name" id="first_name"
+				placeholder="First Name" required="yes"><input type="text" class="form-style form-control" name="last_name" id="last_name" placeholder="Last Name"
+				required="yes">
+		</div>
+		<div class="form-group">
+			<label for="last_name">Last Name<red>*</red></label>
+			
+		</div>
+
+
+
+		<div class="form-group">
+			<label for="email">Email Address<red>*</red></label>
+			<input type="email" class="form-style form-control" name="email" id="email" placeholder="Email"
+				required="yes">
+		</div>
+		<div class="form-group">
+			<label for="phone">Phone<red>*</red></label>
+			<input type="text" class="form-style form-control" name="phone" id="phone" placeholder="Phone"
+				required="yes">
+		</div>
+
+		<div class="form-item">
+			<label for="company_name">Business Description<red> </red></label>
+
+			<!-- <input type="text" class="form-control" name="company_name" id="company_name" placeholder="Company Name" required="no"> -->
+			<textarea cols="10" rows="5" name="biz-desc" id="biz-desc" class="form-style form-control"
+				placeholder="Busines Description" required> </textarea>
+		</div>
+
+		<div class="form-group">
+			<label for="business_type">business type:<red>*</red></label>
+			<label class="radio-inline">
+				<input type="radio" name="business_type" id="company" value="Individual"> Basic
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="business_type" id="company" value="Advance"> Advance
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="business_type" id="company" value="Premium"> Premium
+			</label>
+		</div>
+
+		<div class="form-group">
+			<center>
+				<button type="submit" name="submitter" class="btn btn-primary">Submit</button>
+		</div>
+	</form>
+
+
+</body>
+
+</html>
