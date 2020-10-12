@@ -6476,10 +6476,10 @@ a.close.disabled {
 }
 
 .modal-header {
-  display: flex;
+  display: flex; 
   align-items: flex-start;
   justify-content: space-between;
-  padding: 1rem 1rem;
+  padding: 0; 
   border-bottom: 1px solid #dee2e6;
   border-top-left-radius: calc(0.3rem - 1px);
   border-top-right-radius: calc(0.3rem - 1px);
@@ -6487,7 +6487,7 @@ a.close.disabled {
 
 .modal-header .close {
   padding: 1rem 1rem;
-  margin: -1rem -1rem -1rem auto;
+  margin: -1rem -10rem -1rem auto;
 }
 
 .modal-title {
@@ -11528,44 +11528,13 @@ body {
   font-size: 1em;
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
-  padding: 0.5em;
+  /* padding: 0.5em; */
 }
 /* ----services modals--- */
-.model-content {
-  
-  /* display: flex;
-  flex-direction: column;
-  width: 100%;
-  pointer-events: auto; */
-  background-color: whitesmoke;
-  border: 1.5px solid  #006aff;
-
-  /* background-clip: padding-box;
-  border-radius: 0.3rem;
-  outline: 0; */
-}
- 
-
-.service-desc-modal {
-   display: flex;   
-  justify-content: center;
-  width: 100%;
- padding: 0;
- margin: 0 auto 3em;
-}
-
-.service-cards {
-  position: relative;
-   background-color: rgb(255, 255, 255);
-  width: 100%;
-  font-family: 'Open Sans', sans-serif;
-   color: #84697c; 
-   flex: 0 1 330px;
-}
 .serv-card {
-   
+   width: 100%;
   background-color: #0047ab;
-  height: 5em;
+  height: 4.5em;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -11580,31 +11549,12 @@ body {
     width: 100%;
     height: 100px;
 }
- .serv-image{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-.serv-desc{
-   padding: 2em;
-    color: #000000e7;
-
-}
 .serv-title{
   font-size: 2em;
   margin: 0;
-  text-align: center;
-  /* text-transform: uppercase; */
-  /* letter-spacing: 5px; */
+  text-align: center;  
   color: #fff;
 }
-
-
-.pricing-feature-list {
-  text-align: left;
-}
-
 
 
 @media screen and (min-width: 66.25em) {
@@ -11617,10 +11567,7 @@ body {
     z-index: 10;
     box-shadow: 0 0 20px rgba(46, 59, 125, 0.23);
   }
-}
-
-
-  
+}  
   .deco-layer {
   -webkit-transition: -webkit-transform 0.5s;
   transition: transform 0.5s;
