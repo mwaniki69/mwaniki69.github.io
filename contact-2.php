@@ -34,7 +34,7 @@ Price-Package: $package_type\r";
 
         $courtesy_message = "$courtesy \r\r $message";
 
-		mail("myemailaddress@mycompany.com", $subject, $message, $from);  // This one goes to ME.
+		mail("mwanikimose@gmail.com", $subject, $message, $from);  // This one goes to ME.
        // mail($from, $subject, $courtesy_message, $from_noreply);    // This one goes to the guest.
         
         
