@@ -177,14 +177,14 @@ a {
   color: #006aff;
   text-decoration: none;
   background-color: transparent;
-  /* -webkit-transition: .3s all ease;
+  -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
-  transition: .3s all ease; */
+  transition: .3s all ease;
 }
 
 a:hover {
   color: #008080;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:not([href]) {
@@ -2695,7 +2695,7 @@ textarea.form-control.is-invalid {
 .btn {
   display: inline-block;
   font-weight: 400;
-  color: #212529;
+  color: #e3e3e4;
   text-align: center;
   vertical-align: middle;
   -webkit-user-select: none;
@@ -6277,7 +6277,6 @@ a.badge-black.focus {
   font-weight: 700;
   line-height: 1;
   color: #000000;
-  background-color: tomato;
   height: 35px;
   width: 15px;
   text-shadow: 0 1px 0 #fff;
@@ -11555,6 +11554,21 @@ body {
   text-align: center;  
   color: #fff;
 }
+ 
+.modal-btn{
+  position: relative;
+  border: none;
+  outline:none;
+   
+  background:  #fec301;
+  color: rgb(255, 254, 254);
+  padding: 8px 30px;
+  border-radius: 2px;
+}
+
+.modal-btn:hover, .btn:focus {
+  background-color: #fec301c9;
+}
 
 
 @media screen and (min-width: 66.25em) {
@@ -11762,26 +11776,6 @@ body {
 .pricing-palden .pricing-item--featured .pricing-deco {
   padding: 5em 0 8.885em 0;
 }
-/* a {
-  color: #006aff;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #aaa;
-}
-
-.pull-right {
-  float: right;
-}
-
-.pull-left {
-  float: left;
-}
-
-.clear-fix {
-  clear: both;
-} */
 
 div.logo {
   text-align: center;
@@ -11831,7 +11825,6 @@ div.logo svg {
 
 }
 .form-data{
-  /* background-color: #fd7e14; */
   padding: 5px;
 
 }
@@ -11969,15 +11962,7 @@ input.form-style {
   height: 44px;
   padding: 5px 5%;
   margin: 3px;
-  border: 1px solid #0047ab;
-  /* -moz-border-radius: 27px;
-  -webkit-border-radius: 27px; */
-  /* border-radius: 27px; */
-  /* -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  background-color: #fff;
-  font-family: 'HelveticaNeue', 'Arial', sans-serif; */
+  border: 1px solid #0047ab; 
    font-size: 105%;
   letter-spacing: .8px; 
 }
@@ -11993,12 +11978,10 @@ div.form-item .form-style:focus {
 /*========= contact us =========*/
 .contact-section {
   background: linear-gradient(to bottom, rgba(204, 255, 255, 0.527) 0%, rgba(255, 255, 255, 0.199) 75%, rgba(153, 255, 255, 0.493) 100%), url("../assets/img/map.jpg");
-  /* background-image: url("../assets/img/map.jpg"); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  /* margin-top: 2em; */
 }
 
 
@@ -12059,5 +12042,7 @@ div.form-item .form-style:focus {
 }
 
 .footer {
+  background-color: #0047ab ;
+  color: #ffffff;
   padding: 1.5rem 0;
 }
