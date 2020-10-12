@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<title> Packages- Simple Solutions</title>
+
+	<link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+	<!-- Font Awesome icons (free version)-->
+	<script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+	<!-- Google fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+	<link
+		href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+		rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;800&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet" />
+
+</head>
+
+<body>
+	<section class="form-section">
+		<div class="form-serv">
+			<div class='pricing-deco'>
+				<svg class='pricing-deco-img' enable-background='new 0 0 300 100' height='100px' id='Layer_1'
+					preserveAspectRatio='none' version='1.1' viewBox='0 0 300 100' width='300px' x='0px'
+					xml:space='preserve' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg'
+					y='0px'>
+					<path class='deco-layer deco-layer--1'
+						d='M30.913,43.944c0,0,42.911-34.464,87.51-14.191c77.31,35.14,113.304-1.952,146.638-4.729&#x000A;	c48.654-4.056,69.94,16.218,69.94,16.218v54.396H30.913V43.944z'
+						fill='#00e6e6' opacity='0.6'></path>
+					<path class='deco-layer deco-layer--2'
+						d='M-35.667,44.628c0,0,42.91-34.463,87.51-14.191c77.31,35.141,113.304-1.952,146.639-4.729&#x000A;	c48.653-4.055,69.939,16.218,69.939,16.218v54.396H-35.667V44.628z'
+						fill='#FFFFFF' opacity='0.9'></path>
+					<path class='deco-layer deco-layer--3'
+						d='M43.415,98.342c0,0,48.283-68.927,109.133-68.927c65.886,0,97.983,67.914,97.983,67.914v3.716&#x000A;	H42.401L43.415,98.342z'
+						fill='#ffd700' opacity='1'></path>
+					<path class='deco-layer deco-layer--4'
+						d='M-34.667,62.998c0,0,56-45.667,120.316-27.839C167.484,57.842,197,41.332,232.286,30.428&#x000A;	c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.998z'
+						fill='#FFFFFF'></path>
+				</svg>
+
+				<h3 class='pricing-title'>Premium</h3>
+			</div>
+			<form action="contact.php" method="POST" enctype="multipart/form-data" class="form-data">
+
+				<div class="serv-bio form-group ">
+
+					<div class=" form-group f-group1">
+						<input type="text" class=" form-style form-control" name="first_name" id="first_name"
+							placeholder="First Name" required>
+						<input type="text" class="form-style form-control" name="last_name" id="last_name"
+							placeholder="Last Name" required>
+					</div>
+					<div class="form-group">
+						<!-- <label for="email">Email Address<red>*</red></label> -->
+						<input type="email" class="form-style form-control" name="email" id="email" placeholder="Email"
+							required="yes">
+					</div>
+
+					<div class="form-groeup">
+						<input type="text" class="form-style form-control" name="phone" id="phone" placeholder="Phone"
+							required="yes">
+					</div>
+				</div>
+				<div class="form-group serv-check">
+					<label for="interest">Select your prefferred service:</label>
+					<div class="serv-checks container">
+						<div class="serv-check-1">
+
+							<p class="checkbox">
+								<label class=" ">
+									<input type="checkbox" name="packages[]" id="interest1"
+										value="Real Eastate Virtual assistant"
+										aria-label="Real Eastate Virtual assistant" required>
+									Real Estate Virtual assistant
+								</label>
+							</p>
+							<p class="checkbox">
+								<label class=" ">
+									<input type="checkbox" name="packages[]" id="interest2" value="Community Management"
+										aria-label="Community Management"> Community Management
+								</label>
+							</p>
+							<p class="checkbox">
+								<label class=" ">
+									<input type="checkbox" name="packages[]" id="interest3"
+										value="Human Resource Assistant" aria-label=" Human Resource Assistant">
+									Human Resource Assistant
+								</label>
+							</p>
+						</div>
+						<div class="serv-check-2">
+							<p class="checkbox">
+								<label class=" ">
+									<input type="checkbox" name="packages[]" id="interest5" value="Project Management"
+										aria-label="Project Management"> Project Management
+								</label>
+							</p>
+							<p class="checkbox">
+								<label class=" ">
+									<input type="checkbox" name="packages[]" id="interest6" value="General Services"
+										aria-label="General Services"> General Services
+								</label>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="checks form-group container ">
+
+					With Premium package, you can add on two General Service options of your choice.
+					<div class="cheks form-group container ">
+						<div class="cheks-1 rw">
+							<p class="checkbox">
+								<label>
+									<input type="checkbox" class="check " name="addons[]" id="addons1" value=" Data Entry"
+										aria-label=" Data Entry"> Data Entry
+								</label>
+							</p>
+							<p class="checkbox">
+								<label class="check ">
+									<input type="checkbox" class="check " name="addons[]" id="addons2"
+										value="Appointment Settings/Confirmations"
+										aria-label=" Appointment Settings/Confirmations"> Appointment
+									Settings/Confirmations
+								</label>
+							</p>
+							<p class="checkbox">
+								<label class="check ">
+									<input type="checkbox" class="check " name="addons[]" id="addons3"
+										value="Canva Services" aria-label="Canva Services"> Canva Services
+								</label>
+							</p>
+							<p class="checkbox">
+								<label class="check ">
+									<input type="checkbox" class="check " name="addons[]" id="addons4"
+										value="Calendar Management" aria-label="Calendar Management"> Calendar
+									Management
+								</label>
+							</p>
+						</div>
+						<div class="cheks-2 rw">
+							<p class="checkbox">
+								<label class="check ">
+									<input type="checkbox" class="check " name="addons[]" id="addons5"
+										value="Visibility/Outreach Packages" aria-label="Visibility/Outreach Packages">
+									Visibility/Outreach Packages
+								</label>
+							</p>
+							<p class="checkbox">
+								<label class=" check">
+									<input type="checkbox" class="check " name=" addons[]" id="addons6"
+										value="Customer Service" aria-label="Customer Service"> Customer Service
+								</label>
+							</p>
+							<p class="checkbox">
+								<label class="check ">
+									<input type="checkbox" class="check " name=" addons[]" id="addons7"
+										value="General Research/Proofreading"
+										aria-label="General Research/Proofreading"> General Research/Proofreading
+								</label>
+							</p>
+						</div>
+
+					</div>
+				</div>
+
+
+
+
+
+
+
+				<div class="form-group">
+					<center>
+						<button type="submit" name="submitter" class="btn btn-primary">Submit</button>
+				</div>
+			</form>
+		</div>
+	</section>
+	<!-- partial -->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.jquery.js'></script>
+	<script src="js/scripts.js"></script>
+
+</body>
+
+</html>

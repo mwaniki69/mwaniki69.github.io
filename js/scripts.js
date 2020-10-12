@@ -1,8 +1,7 @@
-/*!
-    * Start Bootstrap - Grayscale v6.0.2 (https://startbootstrap.com/themes/grayscale)
-    * Copyright 2013-2020 Start Bootstrap
-    * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-grayscale/blob/master/LICENSE)
-    */
+$(".check:checkbox").click(function() {
+    var bol = $(".check:checkbox:checked").length >= 2;     
+    $(".check:checkbox").not(":checked").attr("disabled",bol);
+    });
   
     (function ($) {
     "use strict"; // Start of use strict
@@ -55,6 +54,11 @@
     AOS.init({
         duration: 700,
       })
+
+     
+         //form validattion
+
+    
     // Collapse now if page is not at top
     navbarCollapse();
     // Collapse the navbar when page is scrolled
