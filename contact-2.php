@@ -18,7 +18,8 @@
 
 	    $from		=	"From: $first_name $last_name<$email>\r\nReturn-path: $email";
 	    $from_noreply	= "no_reply@mycompany.com";
-        $subject	=	"Service Order form: $last_name";		
+        $subject	=	"Web contact form: $last_name";
+		$date 		=	date('m/d/Y - h:i:s A');
 		$courtesy 	=	"
 Thank you for your interest in contacting My Company.
 (Here is a copy of the form you recently sent to us.)
@@ -29,12 +30,11 @@ Thank you for your interest in contacting My Company.
 Name: $first_name $last_name\r
 Email: $email\r
 Phone: $phone\r
-Services: $packages\r
-Price-Package: $package_type\r";
+Package: $package_type\r";
 
         $courtesy_message = "$courtesy \r\r $message";
 
-		mail("mwanikimose@gmail.com", $subject, $message, $from);  // This one goes to ME.
+		mail("annerturner27@gmail.com", $subject, $message, $from);  // This one goes to ME.
        // mail($from, $subject, $courtesy_message, $from_noreply);    // This one goes to the guest.
         
         
